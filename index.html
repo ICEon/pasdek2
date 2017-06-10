@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    
+    <title>Mi aplicacion</title>
+    
+    <!--grupo CSS-->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/mixtecos.css">       
+    
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>
+  </head>
+  
+  <body>
+    <!--principal-->
+    <div data-role="page" id="principal" >   
+      
+      <div data-role="header" data-position="fixed" data-tap-toggle="false">
+        <h1 class="titulo" id="titulon">Reportes</h1>
+      </div>    
+      
+      <div data-role="main" class="ui-content" >
+        <input type="text" id="tipoIncidente" name="tipoIncidente" placeholder="Tipo de Incidente">
+        <input type="text" id="descripcionIncidente" name ="descripcionIncidente" placeholder="Descripción">
+        <input type="button" value="Enviar" id="btnEnviar" name="btnEnviar">
+      </div>
+      
+      <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+       
+      </div>
+    </div>
+    <!--principal-->
+  </body>
+</html>
